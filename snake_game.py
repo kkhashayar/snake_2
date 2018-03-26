@@ -4,7 +4,7 @@ from pygame import mixer
 screen = turtle.Screen()
 screen.setup(800,600,100)
 screen.bgcolor("black")
-screen.tracer(1)
+screen.tracer(0)
 
 
 mixer.init()
