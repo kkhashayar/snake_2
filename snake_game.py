@@ -58,23 +58,6 @@ class Board(turtle.Turtle):
             self.left(90)
         self.penup()
 
-class A_snake(turtle.Turtle):
-    def __init__(self, snake, apple):
-        turtle.Turtle.__init__(self)
-        self.penup()
-        self.color("green")
-        self.fillcolor("black")
-        self.speed(0)
-        self.shape("square")
-        self.shapesize(0.5)
-        self.direction = "up"
-        self.blink = "on"
-        self.step = 12
-        self.tail = 3
-        self.body = []
-        self.stamp_list = []
-        self.n_x = 0
-        self.n_y = 0
         
 class Apple(turtle.Turtle):
     def __init__(self, snake):
